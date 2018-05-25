@@ -1,0 +1,16 @@
+#Fri May 25 17:10:58 IST 2018
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+renamed.4=classes5.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+base.4=/home/jacob/AndroidStudioProjects/MyVocabulary/Application/build/intermediates/transforms/dexMerger/debug/12
+renamed.0=classes.dex
+base.3=/home/jacob/AndroidStudioProjects/MyVocabulary/Application/build/intermediates/transforms/dexMerger/debug/15
+base.2=/home/jacob/AndroidStudioProjects/MyVocabulary/Application/build/intermediates/transforms/dexMerger/debug/13
+base.1=/home/jacob/AndroidStudioProjects/MyVocabulary/Application/build/intermediates/transforms/dexMerger/debug/16
+base.0=/home/jacob/AndroidStudioProjects/MyVocabulary/Application/build/intermediates/transforms/dexMerger/debug/14
+path.4=classes.dex
