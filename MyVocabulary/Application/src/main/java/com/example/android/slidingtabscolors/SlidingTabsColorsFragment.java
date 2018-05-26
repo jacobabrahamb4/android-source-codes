@@ -122,11 +122,11 @@ public class SlidingTabsColorsFragment extends Fragment {
                 Color.GRAY // Divider color
         ));
 
-        mTabs.add(new SamplePagerItem(
+        /*mTabs.add(new SamplePagerItem(
                 getString(R.string.tab_photos), // Title
                 Color.YELLOW, // Indicator color
                 Color.GRAY // Divider color
-        ));
+        ));*/
 
         mTabs.add(new SamplePagerItem(
                 getString(R.string.tab_notifications), // Title

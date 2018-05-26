@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/jacob/AndroidStudioProjects/MyVocabulary/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
+            "outputFile": "/Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "/home/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f052d63a76c937561fcd5c111124dc36/res/values-kk/values-kk.xml",
+                    "source": "/Users/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a3d0b79afd5f9fa66c6ea7ad6ddc447c/res/values-kk/values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/jacob/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ca069b3d37a2b1951631a5a83ff9df73/res/values-kk/values-kk.xml",
+                    "source": "/Users/jacob/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7337e3e6a52fd1a387e110a7c01f7034/res/values-kk/values-kk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
