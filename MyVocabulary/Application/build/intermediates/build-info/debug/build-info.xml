@@ -2,13 +2,13 @@
 <instant-run
     abi="x86_64,x86"
     api-level="28"
-    build-mode="HOT_WARM"
+    build-mode="FULL"
     density="560dpi"
     format="10"
     plugin-version="3.2.0-alpha15"
-    timestamp="1527426226389"
+    timestamp="1527429321800"
     token="-1135425543009107148"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -26,90 +26,86 @@
     <artifact
         location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1527423695529"
+        timestamp="1527429321800"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1527425742473"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1527425806891"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1527426226389"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
+            location="/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
