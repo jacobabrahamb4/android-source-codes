@@ -2,8 +2,9 @@
 <resources>
 
     <string name="tab_stream">Stream</string>
-    <string name="tab_messages">My Collection</string>
-    <string name="tab_notifications">Search</string>
+    <string name="tab_my_collection">My Collection</string>
+    <string name="tab_search">Search</string>
     <string name="tab_photos">Photos</string>
+    <string name="search_box_hint">Search</string>
 
 </resources>

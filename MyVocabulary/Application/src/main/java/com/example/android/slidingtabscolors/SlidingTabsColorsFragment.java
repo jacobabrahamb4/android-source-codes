@@ -42,13 +42,13 @@ public class SlidingTabsColorsFragment extends Fragment {
      * This class represents a tab to be displayed by {@link ViewPager} and it's associated
      * {@link SlidingTabLayout}.
      */
-    static class SamplePagerItem {
-        private final CharSequence mTitle;
+    private class SamplePagerItem {
+        private final int mTitleId;
         private final int mIndicatorColor;
         private final int mDividerColor;
 
-        SamplePagerItem(CharSequence title, int indicatorColor, int dividerColor) {
-            mTitle = title;
+        SamplePagerItem(int title, int indicatorColor, int dividerColor) {
+            mTitleId = title;
             mIndicatorColor = indicatorColor;
             mDividerColor = dividerColor;
         }
@@ -57,7 +57,16 @@ public class SlidingTabsColorsFragment extends Fragment {
          * @return A new {@link Fragment} to be displayed by a {@link ViewPager}
          */
         Fragment createFragment() {
-            return ContentFragment.newInstance(mTitle, mIndicatorColor, mDividerColor);
+            switch (mTitleId) {
+                case R.string.tab_search:
+                    return SearchFragment.newInstance(getTitle(), mIndicatorColor, mDividerColor);
+                case R.string.tab_stream:
+                    return StreamFragment.newInstance(getTitle(), mIndicatorColor, mDividerColor);
+                case R.string.tab_my_collection:
+                    return ContentFragment.newInstance(getTitle(), mIndicatorColor, mDividerColor);
+                default:
+                    return ContentFragment.newInstance(getTitle(), mIndicatorColor, mDividerColor);
+            }
         }
 
         /**
@@ -65,7 +74,7 @@ public class SlidingTabsColorsFragment extends Fragment {
          * {@link android.support.v4.view.PagerAdapter#getPageTitle(int)}
          */
         CharSequence getTitle() {
-            return mTitle;
+            return getString(mTitleId);
         }
 
         /**
@@ -110,14 +119,20 @@ public class SlidingTabsColorsFragment extends Fragment {
          * Populate our tab list with tabs. Each item contains a title, indicator color and divider
          * color, which are used by {@link SlidingTabLayout}.
          */
+
         mTabs.add(new SamplePagerItem(
-                getString(R.string.tab_stream), // Title
+                R.string.tab_search, // Title
+                Color.GREEN, // Indicator color
+                Color.GRAY // Divider color
+        ));
+
+        mTabs.add(new SamplePagerItem(R.string.tab_stream, // Title
                 Color.BLUE, // Indicator color
                 Color.GRAY // Divider color
         ));
 
         mTabs.add(new SamplePagerItem(
-                getString(R.string.tab_messages), // Title
+                R.string.tab_my_collection, // Title
                 Color.RED, // Indicator color
                 Color.GRAY // Divider color
         ));
@@ -128,11 +143,6 @@ public class SlidingTabsColorsFragment extends Fragment {
                 Color.GRAY // Divider color
         ));*/
 
-        mTabs.add(new SamplePagerItem(
-                getString(R.string.tab_notifications), // Title
-                Color.GREEN, // Indicator color
-                Color.GRAY // Divider color
-        ));
         // END_INCLUDE (populate_tabs)
     }
 
@@ -142,15 +152,16 @@ public class SlidingTabsColorsFragment extends Fragment {
      */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState) {
+                             Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_sample, container, false);
     }
 
     // BEGIN_INCLUDE (fragment_onviewcreated)
+
     /**
      * This is called after the {@link #onCreateView(LayoutInflater, ViewGroup, Bundle)} has finished.
      * Here we can pick out the {@link View}s we need to configure from the content view.
-     *
+     * <p>
      * We set the {@link ViewPager}'s adapter to be an instance of
      * {@link SampleFragmentPagerAdapter}. The {@link SlidingTabLayout} is then given the
      * {@link ViewPager} so that it can populate itself.
@@ -222,6 +233,7 @@ public class SlidingTabsColorsFragment extends Fragment {
         }
 
         // BEGIN_INCLUDE (pageradapter_getpagetitle)
+
         /**
          * Return the title of the item at {@code position}. This is important as what this method
          * returns is what is displayed in the {@link SlidingTabLayout}.

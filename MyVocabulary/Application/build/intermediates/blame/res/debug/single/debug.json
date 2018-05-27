@@ -428,6 +428,10 @@
         "source": "/Users/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a3d0b79afd5f9fa66c6ea7ad6ddc447c/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "/Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/build/intermediates/res/merged/debug/layout_search_fragment_layout.xml.flat",
+        "source": "/Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/res/layout/search_fragment_layout.xml"
+    },
+    {
         "merged": "/Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat",
         "source": "/Users/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a3d0b79afd5f9fa66c6ea7ad6ddc447c/res/anim/abc_popup_exit.xml"
     },

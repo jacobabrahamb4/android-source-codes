@@ -17,7 +17,6 @@
 package com.example.android.slidingtabscolors;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,11 +26,7 @@ import android.widget.TextView;
  * Simple Fragment used to display some meaningful content for each page in the sample's
  * {@link android.support.v4.view.ViewPager}.
  */
-public class ContentFragment extends Fragment {
-
-    private static final String KEY_TITLE = "title";
-    private static final String KEY_INDICATOR_COLOR = "indicator_color";
-    private static final String KEY_DIVIDER_COLOR = "divider_color";
+public class ContentFragment extends BaseFragment {
 
     /**
      * @return a new instance of {@link ContentFragment}, adding the parameters into a bundle and
