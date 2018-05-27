@@ -21,18 +21,21 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SearchView;
 import android.widget.TextView;
 
-public class SearchFragment extends BaseFragment implements SearchView.OnQueryTextListener {
+import java.util.ArrayList;
+
+public class SearchFragment extends BaseFragment implements SearchView.OnQueryTextListener, BaseFragment.CallbackTask.QuerryCallback {
 
     private SearchView mSearchView;
     private RecyclerView mListView;
     private RecyclerView.LayoutManager mLayoutManager;
-    private RecyclerView.Adapter mAdapter;
+    private MyAdapter mAdapter;
 
     /**
      * @return a new instance of {@link ContentFragment}, adding the parameters into a bundle and
@@ -62,21 +65,19 @@ public class SearchFragment extends BaseFragment implements SearchView.OnQueryTe
         super.onViewCreated(view, savedInstanceState);
         mSearchView = (SearchView) view.findViewById(R.id.search_box);
         mSearchView.setOnQueryTextListener(this);
-        /*mListView = (RecyclerView) view.findViewById(R.id.search_result);
+        mListView = (RecyclerView) view.findViewById(R.id.search_result);
         mListView.setHasFixedSize(true);
 
         // use a linear layout manager
         mLayoutManager = new LinearLayoutManager(getActivity());
         mListView.setLayoutManager(mLayoutManager);
-
-        // specify an adapter (see also next example)
-        mAdapter = new MyAdapter(myDataset);
-        mListView.setAdapter(mAdapter);*/
     }
 
     @Override
     public boolean onQueryTextSubmit(String query) {
-        new CallbackTask().execute(dictionaryEntries(query));
+        if(query.chars().allMatch(Character::isLetter)) {
+            new CallbackTask(this).execute(dictionaryEntries(query));
+        }
         return true;
     }
 
@@ -85,8 +86,19 @@ public class SearchFragment extends BaseFragment implements SearchView.OnQueryTe
         return true;
     }
 
+    @Override
+    public void publishDefinitions(ArrayList<Definition> definitions) {
+        if(mAdapter == null) {
+            mAdapter = new MyAdapter(definitions);
+            mListView.setAdapter(mAdapter);
+        } else {
+            mAdapter.setDefinitions(definitions);
+            mAdapter.notifyDataSetChanged();
+        }
+    }
+
     private class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
-        private String[] mDataset;
+        private ArrayList<Definition> mDataset;
 
         // Provide a reference to the views for each data item
         // Complex data items may need more than one view per item, and
@@ -94,17 +106,23 @@ public class SearchFragment extends BaseFragment implements SearchView.OnQueryTe
 
         public class ViewHolder extends RecyclerView.ViewHolder {
             // each data item is just a string in this case
-            public TextView mTextView;
+            public TextView mDefinition;
+            public TextView mExample;
 
-            public ViewHolder(TextView v) {
+            public ViewHolder(View v) {
                 super(v);
-                mTextView = v;
+                mDefinition = v.findViewById(R.id.definition_text);
+                mExample = v.findViewById(R.id.example_text);
             }
         }
 
         // Provide a suitable constructor (depends on the kind of dataset)
-        public MyAdapter(String[] myDataset) {
+        public MyAdapter(ArrayList<Definition> myDataset) {
             mDataset = myDataset;
+        }
+
+        public void setDefinitions(ArrayList<Definition> definitions) {
+            mDataset = definitions;
         }
 
         // Create new views (invoked by the layout manager)
@@ -112,12 +130,11 @@ public class SearchFragment extends BaseFragment implements SearchView.OnQueryTe
         public MyAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
                                                        int viewType) {
             // create a new view
-            /*TextView v = (TextView) LayoutInflater.from(parent.getContext())
-                    .inflate(R.layout.my_text_view, parent, false);*/
+            View v = LayoutInflater.from(parent.getContext())
+                    .inflate(R.layout.definition_layout, parent, false);
 
-            //ViewHolder vh = new ViewHolder(v);
-            //return vh;
-            return null;
+            ViewHolder vh = new ViewHolder(v);
+            return vh;
         }
 
         // Replace the contents of a view (invoked by the layout manager)
@@ -125,14 +142,15 @@ public class SearchFragment extends BaseFragment implements SearchView.OnQueryTe
         public void onBindViewHolder(ViewHolder holder, int position) {
             // - get element from your dataset at this position
             // - replace the contents of the view with that element
-            holder.mTextView.setText(mDataset[position]);
+            holder.mDefinition.setText(mDataset.get(position).definitions[0]);
+            holder.mExample.setText(mDataset.get(position).examples[0]);
 
         }
 
         // Return the size of your dataset (invoked by the layout manager)
         @Override
         public int getItemCount() {
-            return mDataset.length;
+            return mDataset.size();
         }
     }
 

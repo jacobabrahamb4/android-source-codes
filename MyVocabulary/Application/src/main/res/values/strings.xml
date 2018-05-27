@@ -6,5 +6,7 @@
     <string name="tab_search">Search</string>
     <string name="tab_photos">Photos</string>
     <string name="search_box_hint">Search</string>
+    <string name="definition_title">Definition</string>
+    <string name="example_title">Example</string>
 
 </resources>

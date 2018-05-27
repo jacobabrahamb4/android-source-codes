@@ -1,102 +1,102 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:1-44:12
-INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:1-44:12
-INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:1-44:12
-MERGED from [com.android.support:support-v13:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/67f84f1db8102c2d2f1fcb59f26c5832/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/800af3ab55deea8258f3a9b618320b15/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/9fec0e636efe69688dabab414ff8e62e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a3d0b79afd5f9fa66c6ea7ad6ddc447c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/9491225b2a30f1fc8e9997f04cfdcefd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/f12514cabaf4a9d3b8f8f4b13701e082/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/43b5b19eb69283c4557695e779650e9a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/610077ceb1e6cb0afaadd132e7dbb983/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/0f223f3822f3ce5c7831fbfa1f7b75df/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/7bfc72c52beb9f301b452dd236f6dbfd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/57a86e3d47972239df6e1b76ba077498/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7337e3e6a52fd1a387e110a7c01f7034/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/jacob/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3061733634e9d8b3990565ee73dc863a/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:1-44:12
-INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:1-44:12
+ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:1-44:12
+INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:1-44:12
+INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:1-44:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/ee27e31a2917ab3365dc42144f4277ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/3ce982042ce45722989d17f1312cfb8e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/e5c2b4d04f8a3cd36362200c73d5db03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f052d63a76c937561fcd5c111124dc36/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/ef5761068b5a73c9c2574d2830515dbd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/aecabcb0f58a65a33c45425ff15d13c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/470501ba596b8435bd8ad2dc1891ebd0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/1d89b8bf9adbbddf938d4d227de202b8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/cea8d7ab0b11482e31cf4cde6dce9a93/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/ecde7abc931fd0ca08e06960447475a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/57e0b41b24b32e23fff0f22ccf7a2fd7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ca069b3d37a2b1951631a5a83ff9df73/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/jacob/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/1156fc5326017c258001707e29d694ac/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:1-44:12
+INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:1-44:12
 	package
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:21:5-52
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:21:5-52
 	android:versionName
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:23:5-30
-		INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:23:5-30
+		INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:11-69
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:20:11-69
 	android:versionCode
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:22:5-28
-		INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:22:5-28
+		INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:25:5-67
+ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:25:22-64
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:25:22-64
 application
-ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:29:5-41:19
+ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:29:5-41:19
 	android:label
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:30:9-41
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:30:9-41
 	android:icon
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:31:9-45
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:31:9-45
 	android:allowBackup
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:29:18-44
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:29:18-44
 	android:theme
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:32:9-40
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:32:9-40
 activity#com.example.android.slidingtabscolors.MainActivity
-ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:34:9-40:20
+ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:34:9-40:20
 	android:label
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:35:19-51
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:35:19-51
 	android:name
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:34:19-47
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:34:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:36:13-39:29
+ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:36:13-39:29
 action#android.intent.action.MAIN
-ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:37:17-69
+ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:37:25-66
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:38:17-77
+ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml:38:27-74
 uses-sdk
-INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
-INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-v13:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/67f84f1db8102c2d2f1fcb59f26c5832/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/67f84f1db8102c2d2f1fcb59f26c5832/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/800af3ab55deea8258f3a9b618320b15/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/800af3ab55deea8258f3a9b618320b15/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/9fec0e636efe69688dabab414ff8e62e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/9fec0e636efe69688dabab414ff8e62e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a3d0b79afd5f9fa66c6ea7ad6ddc447c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a3d0b79afd5f9fa66c6ea7ad6ddc447c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/9491225b2a30f1fc8e9997f04cfdcefd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/9491225b2a30f1fc8e9997f04cfdcefd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/f12514cabaf4a9d3b8f8f4b13701e082/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/f12514cabaf4a9d3b8f8f4b13701e082/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/43b5b19eb69283c4557695e779650e9a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/43b5b19eb69283c4557695e779650e9a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/610077ceb1e6cb0afaadd132e7dbb983/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/610077ceb1e6cb0afaadd132e7dbb983/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/0f223f3822f3ce5c7831fbfa1f7b75df/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/0f223f3822f3ce5c7831fbfa1f7b75df/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/7bfc72c52beb9f301b452dd236f6dbfd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/7bfc72c52beb9f301b452dd236f6dbfd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/57a86e3d47972239df6e1b76ba077498/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/57a86e3d47972239df6e1b76ba077498/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7337e3e6a52fd1a387e110a7c01f7034/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /Users/jacob/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7337e3e6a52fd1a387e110a7c01f7034/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/jacob/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3061733634e9d8b3990565ee73dc863a/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/jacob/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3061733634e9d8b3990565ee73dc863a/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
-INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/ee27e31a2917ab3365dc42144f4277ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/ee27e31a2917ab3365dc42144f4277ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/3ce982042ce45722989d17f1312cfb8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/3ce982042ce45722989d17f1312cfb8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/e5c2b4d04f8a3cd36362200c73d5db03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/e5c2b4d04f8a3cd36362200c73d5db03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f052d63a76c937561fcd5c111124dc36/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f052d63a76c937561fcd5c111124dc36/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/ef5761068b5a73c9c2574d2830515dbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/ef5761068b5a73c9c2574d2830515dbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/aecabcb0f58a65a33c45425ff15d13c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/aecabcb0f58a65a33c45425ff15d13c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/470501ba596b8435bd8ad2dc1891ebd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/470501ba596b8435bd8ad2dc1891ebd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/1d89b8bf9adbbddf938d4d227de202b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/1d89b8bf9adbbddf938d4d227de202b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/cea8d7ab0b11482e31cf4cde6dce9a93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/cea8d7ab0b11482e31cf4cde6dce9a93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/ecde7abc931fd0ca08e06960447475a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/ecde7abc931fd0ca08e06960447475a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/57e0b41b24b32e23fff0f22ccf7a2fd7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/57e0b41b24b32e23fff0f22ccf7a2fd7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ca069b3d37a2b1951631a5a83ff9df73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/jacob/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ca069b3d37a2b1951631a5a83ff9df73/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/jacob/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/1156fc5326017c258001707e29d694ac/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/jacob/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/1156fc5326017c258001707e29d694ac/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
-		ADDED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+		ADDED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jacob/github/android-source-codes/MyVocabulary/Application/src/main/AndroidManifest.xml

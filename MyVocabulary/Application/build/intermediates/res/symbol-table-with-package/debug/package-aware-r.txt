@@ -642,6 +642,7 @@ id blocking
 id bottom
 id buttonPanel
 id cancel_action
+id card_view
 id checkbox
 id chronometer
 id collapseActionView
@@ -650,10 +651,14 @@ id custom
 id customPanel
 id decor_content_parent
 id default_activity_button
+id definition_text
+id definition_title
 id disableHome
 id edit_query
 id end
 id end_padder
+id example_text
+id example_title
 id expand_activities_button
 id expanded_menu
 id forever
@@ -774,6 +779,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout activity_main
+layout definition_layout
 layout fragment_sample
 layout notification_action
 layout notification_action_tombstone
@@ -828,6 +834,8 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string definition_title
+string example_title
 string intro_message
 string sample_hide_log
 string sample_show_log

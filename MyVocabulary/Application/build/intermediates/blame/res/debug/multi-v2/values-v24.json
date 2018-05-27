@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/jacob/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/f12514cabaf4a9d3b8f8f4b13701e082/res/values-v24/values-v24.xml",
+                    "source": "/home/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f052d63a76c937561fcd5c111124dc36/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/home/jacob/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/aecabcb0f58a65a33c45425ff15d13c8/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
-                    }
-                },
-                {
-                    "source": "/Users/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a3d0b79afd5f9fa66c6ea7ad6ddc447c/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]

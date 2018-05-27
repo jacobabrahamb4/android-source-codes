@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jacob/Downloads/android-source-codes/MyVocabulary/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
+            "outputFile": "/home/jacob/github/android-source-codes/MyVocabulary/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
             "map": [
                 {
-                    "source": "/Users/jacob/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7337e3e6a52fd1a387e110a7c01f7034/res/values-af/values-af.xml",
+                    "source": "/home/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/f052d63a76c937561fcd5c111124dc36/res/values-af/values-af.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,309,415,500,603,721,797,874,955,1062,1165,1262,1370,1472,1574,1728,1826",
+                        "endColumns": "103,99,105,84,102,117,75,76,80,106,102,96,107,101,101,153,97,79",
+                        "endOffsets": "204,304,410,495,598,716,792,869,950,1057,1160,1257,1365,1467,1569,1723,1821,1901"
+                    }
+                },
+                {
+                    "source": "/home/jacob/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ca069b3d37a2b1951631a5a83ff9df73/res/values-af/values-af.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1906",
                         "endColumns": "100",
                         "endOffsets": "2002"
-                    }
-                },
-                {
-                    "source": "/Users/jacob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a3d0b79afd5f9fa66c6ea7ad6ddc447c/res/values-af/values-af.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,209,309,415,500,603,721,797,874,955,1062,1165,1262,1370,1472,1574,1728,1826",
-                        "endColumns": "103,99,105,84,102,117,75,76,80,106,102,96,107,101,101,153,97,79",
-                        "endOffsets": "204,304,410,495,598,716,792,869,950,1057,1160,1257,1365,1467,1569,1723,1821,1901"
                     }
                 }
             ]

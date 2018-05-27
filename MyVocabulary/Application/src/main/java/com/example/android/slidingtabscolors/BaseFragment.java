@@ -22,10 +22,6 @@ import android.util.Log;
 
 import com.google.gson.Gson;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
@@ -50,7 +46,17 @@ public class BaseFragment extends Fragment {
 
     //in android calling network requests on the main thread forbidden by default
     //create class to do async job
-    protected class CallbackTask extends AsyncTask<String, Integer, String> {
+    protected static class CallbackTask extends AsyncTask<String, Integer, String> {
+
+        public interface QuerryCallback {
+            void publishDefinitions(ArrayList<Definition> definitions);
+        }
+
+        private QuerryCallback mCallback;
+
+        public CallbackTask(QuerryCallback callback) {
+            mCallback = callback;
+        }
 
         @Override
         protected String doInBackground(String... params) {
@@ -84,10 +90,9 @@ public class BaseFragment extends Fragment {
             super.onPostExecute(result);
             Gson gson = new Gson();
             SearchResult searchResult = gson.fromJson(result, SearchResult.class);
-            //Log.d("def", searchResult.toString());
             ArrayList<Definition> definitions = searchResult.getDefinitions();
-            for(Definition definition: definitions) {
-                Log.d("definition: ", definition.toString());
+            if(mCallback != null) {
+                mCallback.publishDefinitions(definitions);
             }
         }
     }
